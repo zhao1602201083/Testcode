@@ -1,6 +1,6 @@
 #include <QString>
 #include <QtTest>
-
+#include <QByteArray>
 class Test3Test : public QObject
 {
     Q_OBJECT
@@ -10,6 +10,8 @@ public:
 
 private Q_SLOTS:
     void testCase1();
+    void testCase2();
+     void testCase3();
 };
 
 Test3Test::Test3Test()
